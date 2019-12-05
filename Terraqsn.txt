@@ -1,0 +1,69 @@
+Hi Suroju Ravikiran,
+
+
+We hope you have created the AWS account with the same email ID on which we are communicating with you. If not kindly update us on the mail ID through which the account is created.
+
+
+As told earlier, we are sharing the problem statement on which you are expected to work and make the submission on the AWS platform via your respective accounts.
+
+
+Problem statement:
+
+
+Tech Challenge:
+
+ Containerize a python flask sample app and run it in AWS ECS with the CICD approach.
+
+ 
+
+Pre-requisites:
+
+Candidates should have a valid AWS account.
+
+ Task break down:
+
+ 1. Create a sample application that shows "Hello World" with python flask and store it in CodeCommit repository.
+
+ 
+
+2. Build a CICD pipeline which fetches required artificats including the above-created sample flask application from CodeCommit repository and dynamically create a docker image with the flask application.
+
+ 
+
+3. The next step in the pipeline is to deploy this docker image to ECS.
+
+ 
+
+4. Each time you make a change to flask application stored in CodeCommit repository, it should trigger the pipeline which then builds the latest docker image and deploys it to ECS.
+
+ 
+
+All the components of the above CICD pipeline should be created using CloudFormation or Terraform.
+
+ Submission:
+
+ 1. Template
+
+2. Artifacts stored in CodeCommit.
+
+3. Readme file with brief instructions on how to deploy your template in AWS.
+
+Note: The candidate will be provided a week’s time to complete the assigned task. The task will start on 28th November (Thursday) at 12:00 noon and will end on 4th December (Wednesday) at 12:00 Noon.
+
+Submissions after Wednesday 12:00 Noon will not be accepted.
+
+ Assessment will focus on the following criteria:
+
+1. The simplicity of deploying the solution.
+
+2. The number of tasks covered.
+
+ Notes:
+
+ 
+
+We will provide a coupon code of 50$ which you can utilize to create the AWS resources required in the challenge.
+
+As we are expecting an Iaac template(Cloudformation/Terraform), do not to keep the resources running all the time. Please tear down the infra or any resources you create as part of this challenge once the testing is done, if not this incurs an additional cost.
+
+AWS will not be responsible for any additional charges for running the resources for longer time.
